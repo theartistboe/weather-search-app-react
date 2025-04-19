@@ -1,0 +1,72 @@
+.Weather {
+    font-family: Google Sans,Roboto,Arial,sans-serif;
+    border: 1px solid #41506B;
+    padding: 16px;
+    border-radius: 4px;
+    color: rgb(38, 56, 73);
+}
+
+.Weather form {
+    margin-bottom: 10px;
+}
+
+.Weather h1 {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 20px 0 0 0;
+    line-height: 29px;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
+}
+
+.Weather img {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.Weather .temperature {
+    font-weight: bold;
+    color: #41506B;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 400;
+}
+
+.Weather .unit {
+    color: #41506B;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+    margin-left: 5px;
+}
+
+.Weather .temperature-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+ .Weather .weather-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+  }
+  
+ .Weather .weather-details {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+  }
