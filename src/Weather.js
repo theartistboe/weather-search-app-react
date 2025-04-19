@@ -22,7 +22,7 @@ export default function Weather() {
   
         <h1>San Diego</h1>
         <ul>
-          <li>Wednesday 07:00</li>
+          <li>Wednesday 07:00 PM</li>
           <li>Mostly Cloudy</li>
         </ul>
   
