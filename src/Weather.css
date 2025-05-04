@@ -1,6 +1,6 @@
 .Weather {
     font-family: Google Sans,Roboto,Arial,sans-serif;
-    border: 1px solid #141010;
+    border: 1px solid #1f6f78;
     padding: 16px;
     border-radius: 4px;
     color: rgb(38, 56, 73);
@@ -68,3 +68,11 @@
     padding-left: 0;
     text-align: left;
   }
+ .Weather .custom-search-button {
+    background: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));    color: white;
+    border: none;
+  }
+
+  .Weather .custom-search-button:hover {
+    background: linear-gradient(to bottom, #f70776, #b50e56);
+}
